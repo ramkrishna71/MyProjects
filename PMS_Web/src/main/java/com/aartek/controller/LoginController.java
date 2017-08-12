@@ -9,7 +9,8 @@ import org.springframework.stereotype.Controller;
 public class LoginController {
 	
 	public String loginUser(Map map){
-		
+		System.out.println("Helllloooooo");
+		System.out.println("Helllloooooo Tanali Ram");
 		return "ramakrihsna";
 		
 	}
