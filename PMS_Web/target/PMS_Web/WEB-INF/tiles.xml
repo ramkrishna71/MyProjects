@@ -21,18 +21,17 @@
   
 
   <!-- Mapping for Registration Page -->
+  
+  
   <definition name="registration" id="registration" extends="baseTemplate">
     <put-attribute name="body" value="/WEB-INF/jsp/registration.jsp" />
     
   </definition>
   
- 
- 
-  <!-- Mapping for Product Page -->
-  <definition name="product" id="product" extends="baseTemplate">
-    <put-attribute name="body" value="/WEB-INF/jsp/product.jsp" />
-    
-  </definition>
+  
+ <!--                  		 SECOND SINARIO                            -->
+  
+  
   
    <!-- <definition name="baseTemplate2" id="baseTemplate2" template="/WEB-INF/layout/baseLayout2.jsp">
     <put-attribute name="title" value="${title}" />
@@ -50,6 +49,13 @@
     
   </definition>
    -->
-        
-        
-        </tiles-definitions>
+  
+  
+<!--                   		THIRD SINARIO                            -->
+     
+           
+   <!-- <definition name="login" id="login" value="/WEB-INF/jsp/login.jsp">    -->
+         
+         
+         
+   </tiles-definitions>

@@ -11,8 +11,9 @@ public class LoginController {
 	public String loginUser(Map map){
 		System.out.println("Helllloooooo");
 		System.out.println("Helllloooooo Tanali Ram");
-		return "ramakrihsna";
 		
+		System.out.println("jai shree krishna");
+		return "ramakrihsna";
 	}
 
 }
